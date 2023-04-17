@@ -66,7 +66,7 @@ def Session():
             time.sleep(1)
             os.system('cls' if os.name == 'nt' else 'clear')
 
-        BeepBoop("Workphase ended", "Take a break, get some coffee or someting else.")
+        BeepBoop("Workphase ended", "Take a break, get some coffee or something else.")
         print("Rest Phase begins soon..")
         time.sleep(15)
         
